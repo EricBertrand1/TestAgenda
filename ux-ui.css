@@ -461,14 +461,7 @@
     top: 6px;
     transform: matrix(1,0,0,1,0,0);
 }
-#Notification_12 {
-    position: absolute;
-    width: 58px;
-    height: 94px;
-    left: 338px;
-    top: 11px;
-    overflow: visible;
-}
+
 #Ellipse_59 {
     fill: rgba(255,0,0,1);
     stroke: rgba(112,112,112,1);
@@ -670,14 +663,6 @@
     font-size: 45px;
     color: rgba(255,255,255,1);
 }
-#Notification_4 {
-    position: absolute;
-    width: 52px;
-    height: 50px;
-    left: 54px;
-    top: 131px;
-    overflow: visible;
-}
 #Ellipse_59_ds {
     fill: rgba(255,0,0,1);
     stroke: rgba(112,112,112,1);
@@ -708,53 +693,6 @@
     font-weight: normal;
     font-size: 35px;
     color: rgba(255,255,255,1);
-}
-#Notification_3 {
-    position: absolute;
-    width: 52px;
-    height: 50px;
-    left: 6px;
-    top: 219px;
-    overflow: visible;
-}
-#Ellipse_59_dv {
-    fill: rgba(255,0,0,1);
-    stroke: rgba(112,112,112,1);
-    stroke-width: 3px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-}
-.Ellipse_59_dv {
-    position: absolute;
-    overflow: visible;
-    width: 52px;
-    height: 50px;
-    left: 0px;
-    top: 0px;
-}
-#n__dw {
-    left: 4.5px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 44px;
-    height: 47px;
-    text-align: center;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    color: rgba(255,255,255,1);
-}
-#Notification_1 {
-    position: absolute;
-    width: 52px;
-    height: 50px;
-    left: 6px;
-    top: 493px;
-    overflow: visible;
 }
 #Ellipse_59_dy {
     fill: rgba(255,0,0,1);
@@ -886,3 +824,41 @@
     top: 26px;
     overflow: visible;
 }
+
+
+
+/* CSS ci-dessous conforme */
+.Notification {
+    position: absolute;
+    width: 52px;
+    height: 50px;
+    overflow: visible;
+}
+.Notification-Ellipse {
+    fill: rgba(255,0,0,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+#Notification-Nb {
+    left: 4.5px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 44px;
+    height: 47px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+
+
+
+
+
