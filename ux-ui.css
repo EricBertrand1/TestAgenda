@@ -1,0 +1,888 @@
+.mediaViewInfo {
+    --web-view-name: Affichage permanent ;
+    --web-view-id: Affichage_permanent_;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Affichage_permanent_;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Affichage_permanent_ {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(0,0,0,1);
+    overflow: hidden;
+    --web-view-name: Affichage permanent ;
+    --web-view-id: Affichage_permanent_;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Composant_Fentre_de_travail {
+    position: absolute;
+    width: 1427px;
+    height: 861px;
+    left: 473px;
+    top: 20px;
+    overflow: visible;
+}
+#Fentre_de_travail {
+    fill: rgba(90,0,122,1);
+}
+.Fentre_de_travail {
+    position: absolute;
+    overflow: visible;
+    width: 1427px;
+    height: 861px;
+    left: 0px;
+    top: 0px;
+}
+#Composant_Volet_de_gauche {
+    position: absolute;
+    width: 434px;
+    height: 1019px;
+    left: 20px;
+    top: 20px;
+    overflow: visible;
+}
+#Groupe_Entte {
+    position: absolute;
+    width: 434px;
+    height: 257px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Entte {
+    fill: rgba(90,0,122,1);
+}
+.Entte {
+    overflow: visible;
+    position: absolute;
+    width: 434px;
+    height: 251px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_Solde_FF {
+    position: absolute;
+    width: 173px;
+    height: 83px;
+    left: 44px;
+    top: 174px;
+    overflow: visible;
+}
+#Porte-feuille {
+    left: 5px;
+    top: 32px;
+    position: absolute;
+    overflow: visible;
+    width: 165px;
+    height: 40px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(105,0,153,1);
+}
+#Porte-feuille_b {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(255,104,15,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Porte-feuille_b {
+    overflow: visible;
+    position: absolute;
+    width: 173px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_5_FF {
+    left: 22px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    height: 70px;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+#Photo_de_profil {
+    position: absolute;
+    width: 167px;
+    height: 200px;
+    left: 250px;
+    top: 26px;
+    overflow: visible;
+}
+#Groupe_Logo {
+    position: absolute;
+    width: 171.252px;
+    height: 158.64px;
+    left: 43.874px;
+    top: 6px;
+    overflow: visible;
+}
+#Calque_9 {
+    position: absolute;
+    width: 157.605px;
+    height: 158.64px;
+    left: 11.779px;
+    top: 0px;
+    overflow: visible;
+}
+#Groupe_1884 {
+    position: absolute;
+    width: 157.605px;
+    height: 158.64px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Trac_31_cg {
+    fill: url(#Trac_31_cg);
+}
+.Trac_31_cg {
+    overflow: visible;
+    position: absolute;
+    width: 157.605px;
+    height: 158.64px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#mendibules {
+    position: absolute;
+    width: 41.678px;
+    height: 27.217px;
+    left: 70.721px;
+    top: 117.487px;
+    overflow: visible;
+}
+#Groupe_1885 {
+    position: absolute;
+    width: 41.678px;
+    height: 27.217px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Trac_32 {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(0,0,0,1);
+    stroke-width: 0.9746000170707703px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Trac_32 {
+    overflow: visible;
+    position: absolute;
+    width: 15.914px;
+    height: 27.691px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Trac_33 {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(0,0,0,1);
+    stroke-width: 0.9746000170707703px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Trac_33 {
+    overflow: visible;
+    position: absolute;
+    width: 15.914px;
+    height: 27.691px;
+    left: 26.721px;
+    top: 0.664px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#tete {
+    position: absolute;
+    width: 87.53px;
+    height: 88.883px;
+    left: 46.555px;
+    top: 42.59px;
+    overflow: visible;
+}
+#Trac_34 {
+    fill: rgba(0,0,0,1);
+}
+.Trac_34 {
+    overflow: visible;
+    position: absolute;
+    width: 87.53px;
+    height: 88.883px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#ombre_tete {
+    position: absolute;
+    width: 26.332px;
+    height: 80.807px;
+    left: 90.239px;
+    top: 44.796px;
+    overflow: visible;
+}
+#Trac_35 {
+    fill: rgba(255,255,255,1);
+}
+.Trac_35 {
+    overflow: visible;
+    position: absolute;
+    width: 26.332px;
+    height: 80.807px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#antennes {
+    position: absolute;
+    width: 171.252px;
+    height: 56.168px;
+    left: 0px;
+    top: 0.156px;
+    overflow: visible;
+}
+#Trac_36 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(0,0,0,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Trac_36 {
+    overflow: visible;
+    position: absolute;
+    width: 86.469px;
+    height: 36.92px;
+    left: 0px;
+    top: 20.301px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Trac_37 {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(0,0,0,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Trac_37 {
+    overflow: visible;
+    position: absolute;
+    width: 76.676px;
+    height: 57.241px;
+    left: 95.641px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#yeux {
+    position: absolute;
+    width: 65.371px;
+    height: 34.749px;
+    left: 61.549px;
+    top: 59.265px;
+    overflow: visible;
+}
+#Groupe_1886 {
+    position: absolute;
+    width: 65.371px;
+    height: 34.749px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Trac_38_cv {
+    fill: url(#Trac_38_cv);
+}
+.Trac_38_cv {
+    overflow: visible;
+    position: absolute;
+    width: 16.131px;
+    height: 34.53px;
+    left: 0px;
+    top: 0.219px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Trac_39_cx {
+    fill: url(#Trac_39_cx);
+}
+.Trac_39_cx {
+    overflow: visible;
+    position: absolute;
+    width: 16.233px;
+    height: 34.749px;
+    left: 49.139px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_Menu {
+    position: absolute;
+    width: 434px;
+    height: 748px;
+    left: 0px;
+    top: 271px;
+    overflow: visible;
+}
+#Groupe_Menu_de_navigation {
+    position: absolute;
+    width: 434px;
+    height: 748px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Menu_de_Navigation {
+    fill: transparent;
+}
+.Menu_de_Navigation {
+    overflow: visible;
+    position: absolute;
+    width: 434px;
+    height: 748px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Menu {
+    position: absolute;
+    width: 401px;
+    height: 624px;
+    left: 17px;
+    top: 112px;
+    overflow: visible;
+}
+#Groupe_-_Agenda {
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Agenda_-_Contour {
+    fill: rgba(0,0,0,1);
+}
+.Agenda_-_Contour {
+    overflow: visible;
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Agenda_-_Texte {
+    left: 113px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 159px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#Groupe_-_Messagerie {
+    position: absolute;
+    width: 401px;
+    height: 105px;
+    left: 0px;
+    top: 92px;
+    overflow: visible;
+}
+#Agenda_-_Contour_c {
+    fill: rgba(0,0,0,1);
+}
+.Agenda_-_Contour_c {
+    overflow: visible;
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Agenda_-_Texte_c {
+    left: 56px;
+    top: 9px;
+    position: absolute;
+    overflow: visible;
+    width: 241px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#Icon_feather-message-circle {
+    fill: rgba(120,19,221,1);
+}
+.Icon_feather-message-circle {
+    overflow: visible;
+    position: absolute;
+    width: 63.789px;
+    height: 63px;
+    left: 334.21px;
+    top: 6px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Notification_12 {
+    position: absolute;
+    width: 58px;
+    height: 94px;
+    left: 338px;
+    top: 11px;
+    overflow: visible;
+}
+#Ellipse_59 {
+    fill: rgba(255,0,0,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_59 {
+    position: absolute;
+    overflow: visible;
+    width: 56px;
+    height: 50px;
+    left: 2px;
+    top: 0px;
+}
+#n_2_ {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    height: 94px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+#Groupe_-_Forum {
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 184px;
+    overflow: visible;
+}
+#Agenda_-_Contour_dd {
+    fill: rgba(0,0,0,1);
+}
+.Agenda_-_Contour_dd {
+    overflow: visible;
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Agenda_-_Texte_de {
+    left: 125px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 136px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#Groupe_-_March {
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 276px;
+    overflow: visible;
+}
+#Agenda_-_Contour_dg {
+    fill: rgba(0,0,0,1);
+}
+.Agenda_-_Contour_dg {
+    overflow: visible;
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Agenda_-_Texte_dh {
+    left: 113px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 159px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#Groupe_-_Coaching {
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 368px;
+    overflow: visible;
+}
+#Agenda_-_Contour_dj {
+    fill: rgba(255,103,15,1);
+}
+.Agenda_-_Contour_dj {
+    overflow: visible;
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Agenda_-_Texte_dk {
+    left: 94px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 197px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#Groupe_-_Evaluation {
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 460px;
+    overflow: visible;
+}
+#Agenda_-_Contour_dm {
+    fill: rgba(0,0,0,1);
+}
+.Agenda_-_Contour_dm {
+    overflow: visible;
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Agenda_-_Texte_dn {
+    left: 83px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 219px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#Groupe_-_Annuaire {
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 552px;
+    overflow: visible;
+}
+#Agenda_-_Contour_dp {
+    fill: rgba(0,0,0,1);
+}
+.Agenda_-_Contour_dp {
+    overflow: visible;
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Agenda_-_Texte_dq {
+    left: 96px;
+    top: 13px;
+    position: absolute;
+    overflow: visible;
+    width: 193px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+#Notification_4 {
+    position: absolute;
+    width: 52px;
+    height: 50px;
+    left: 54px;
+    top: 131px;
+    overflow: visible;
+}
+#Ellipse_59_ds {
+    fill: rgba(255,0,0,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_59_ds {
+    position: absolute;
+    overflow: visible;
+    width: 52px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#n_ {
+    left: 4.5px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 44px;
+    height: 47px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+#Notification_3 {
+    position: absolute;
+    width: 52px;
+    height: 50px;
+    left: 6px;
+    top: 219px;
+    overflow: visible;
+}
+#Ellipse_59_dv {
+    fill: rgba(255,0,0,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_59_dv {
+    position: absolute;
+    overflow: visible;
+    width: 52px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#n__dw {
+    left: 4.5px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 44px;
+    height: 47px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+#Notification_1 {
+    position: absolute;
+    width: 52px;
+    height: 50px;
+    left: 6px;
+    top: 493px;
+    overflow: visible;
+}
+#Ellipse_59_dy {
+    fill: rgba(255,0,0,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_59_dy {
+    position: absolute;
+    overflow: visible;
+    width: 52px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#n__dz {
+    left: 4.5px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 44px;
+    height: 47px;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+#Icon_Signalement {
+    fill: rgba(255,255,255,1);
+}
+.Icon_Signalement {
+    overflow: visible;
+    position: absolute;
+    width: 59.94px;
+    height: 66.7px;
+    left: 52.868px;
+    top: 22.15px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Icon_Recherche {
+    fill: rgba(255,255,255,1);
+}
+.Icon_Recherche {
+    overflow: visible;
+    position: absolute;
+    width: 62.665px;
+    height: 66.701px;
+    left: 328.047px;
+    top: 22.15px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Icon_Accueil {
+    fill: rgba(255,255,255,1);
+}
+.Icon_Accueil {
+    overflow: visible;
+    position: absolute;
+    width: 77.65px;
+    height: 66.7px;
+    left: 189.095px;
+    top: 22.15px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Groupe_Publication {
+    position: absolute;
+    width: 1427px;
+    height: 161px;
+    left: 473px;
+    top: 899px;
+    overflow: visible;
+}
+#Publication {
+    fill: rgba(90,0,122,1);
+}
+.Publication {
+    position: absolute;
+    overflow: visible;
+    width: 1427px;
+    height: 161px;
+    left: 0px;
+    top: 0px;
+}
+#Ellipse_Photo_profil {
+    position: absolute;
+    width: 124px;
+    height: 101px;
+    left: 5px;
+    top: 4px;
+    overflow: visible;
+}
+#Nous_recherchons_une_UXUI_desi {
+    left: 143px;
+    top: 15px;
+    position: absolute;
+    overflow: visible;
+    width: 1108px;
+    height: 146px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(247,251,253,1);
+}
+#Graldine_Duval {
+    left: 23px;
+    top: 107px;
+    position: absolute;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Image_UX_UI {
+    position: absolute;
+    width: 191px;
+    height: 114px;
+    left: 1217px;
+    top: 26px;
+    overflow: visible;
+}
