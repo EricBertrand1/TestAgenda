@@ -389,18 +389,6 @@
     top: 0px;
     overflow: visible;
 }
-#Agenda_-_Contour {
-    fill: rgba(0,0,0,1);
-}
-.Agenda_-_Contour {
-    overflow: visible;
-    position: absolute;
-    width: 401px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-    transform: matrix(1,0,0,1,0,0);
-}
 #Agenda_-_Texte {
     left: 113px;
     top: 13px;
@@ -422,9 +410,6 @@
     left: 0px;
     top: 92px;
     overflow: visible;
-}
-#Agenda_-_Contour_c {
-    fill: rgba(0,0,0,1);
 }
 .Agenda_-_Contour_c {
     overflow: visible;
@@ -501,9 +486,6 @@
     top: 184px;
     overflow: visible;
 }
-#Agenda_-_Contour_dd {
-    fill: rgba(0,0,0,1);
-}
 .Agenda_-_Contour_dd {
     overflow: visible;
     position: absolute;
@@ -534,9 +516,6 @@
     left: 0px;
     top: 276px;
     overflow: visible;
-}
-#Agenda_-_Contour_dg {
-    fill: rgba(0,0,0,1);
 }
 .Agenda_-_Contour_dg {
     overflow: visible;
@@ -603,9 +582,6 @@
     top: 460px;
     overflow: visible;
 }
-#Agenda_-_Contour_dm {
-    fill: rgba(0,0,0,1);
-}
 .Agenda_-_Contour_dm {
     overflow: visible;
     position: absolute;
@@ -615,20 +591,6 @@
     top: 0px;
     transform: matrix(1,0,0,1,0,0);
 }
-#Agenda_-_Texte_dn {
-    left: 83px;
-    top: 13px;
-    position: absolute;
-    overflow: visible;
-    width: 219px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: Krub;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 45px;
-    color: rgba(255,255,255,1);
-}
 #Groupe_-_Annuaire {
     position: absolute;
     width: 401px;
@@ -636,9 +598,6 @@
     left: 0px;
     top: 552px;
     overflow: visible;
-}
-#Agenda_-_Contour_dp {
-    fill: rgba(0,0,0,1);
 }
 .Agenda_-_Contour_dp {
     overflow: visible;
@@ -648,20 +607,6 @@
     left: 0px;
     top: 0px;
     transform: matrix(1,0,0,1,0,0);
-}
-#Agenda_-_Texte_dq {
-    left: 96px;
-    top: 13px;
-    position: absolute;
-    overflow: visible;
-    width: 193px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: Krub;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 45px;
-    color: rgba(255,255,255,1);
 }
 #Ellipse_59_ds {
     fill: rgba(255,0,0,1);
@@ -857,8 +802,24 @@
     font-size: 35px;
     color: rgba(255,255,255,1);
 }
-
-
-
-
-
+.ElementDuMenu {
+    overflow: visible;
+    position: absolute;
+    width: 401px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#ElementDuMenu-Texte {
+    position: absolute;
+    overflow: visible;
+    width: 193px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Krub;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
