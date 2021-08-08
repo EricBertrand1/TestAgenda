@@ -1,29 +1,3 @@
-.mediaViewInfo {
-    --web-view-name: Affichage permanent ;
-    --web-view-id: Affichage_permanent_;
-    --web-scale-on-resize: true;
-    --web-enable-deep-linking: true;
-}
-:root {
-    --web-view-ids: Affichage_permanent_;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-}
-#Affichage_permanent_ {
-    position: absolute;
-    width: 1920px;
-    height: 1080px;
-    background-color: rgba(0,0,0,1);
-    overflow: hidden;
-    --web-view-name: Affichage permanent ;
-    --web-view-id: Affichage_permanent_;
-    --web-scale-on-resize: true;
-    --web-enable-deep-linking: true;
-}
 #Composant_Fentre_de_travail {
     position: absolute;
     width: 1427px;
@@ -51,25 +25,8 @@
     top: 20px;
     overflow: visible;
 }
-#Groupe_Entte {
-    position: absolute;
-    width: 434px;
-    height: 257px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-}
 #Entte {
     fill: rgba(90,0,122,1);
-}
-.Entte {
-    overflow: visible;
-    position: absolute;
-    width: 434px;
-    height: 251px;
-    left: 0px;
-    top: 0px;
-    transform: matrix(1,0,0,1,0,0);
 }
 #Groupe_Solde_FF {
     position: absolute;
@@ -141,210 +98,6 @@
     top: 6px;
     overflow: visible;
 }
-#Calque_9 {
-    position: absolute;
-    width: 157.605px;
-    height: 158.64px;
-    left: 11.779px;
-    top: 0px;
-    overflow: visible;
-}
-#Groupe_1884 {
-    position: absolute;
-    width: 157.605px;
-    height: 158.64px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-}
-#Trac_31_cg {
-    fill: url(#Trac_31_cg);
-}
-.Trac_31_cg {
-    overflow: visible;
-    position: absolute;
-    width: 157.605px;
-    height: 158.64px;
-    left: 0px;
-    top: 0px;
-    transform: matrix(1,0,0,1,0,0);
-}
-#mendibules {
-    position: absolute;
-    width: 41.678px;
-    height: 27.217px;
-    left: 70.721px;
-    top: 117.487px;
-    overflow: visible;
-}
-#Groupe_1885 {
-    position: absolute;
-    width: 41.678px;
-    height: 27.217px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-}
-#Trac_32 {
-    fill: rgba(0,0,0,1);
-    stroke: rgba(0,0,0,1);
-    stroke-width: 0.9746000170707703px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 10;
-    shape-rendering: auto;
-}
-.Trac_32 {
-    overflow: visible;
-    position: absolute;
-    width: 15.914px;
-    height: 27.691px;
-    left: 0px;
-    top: 0px;
-    transform: matrix(1,0,0,1,0,0);
-}
-#Trac_33 {
-    fill: rgba(0,0,0,1);
-    stroke: rgba(0,0,0,1);
-    stroke-width: 0.9746000170707703px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 10;
-    shape-rendering: auto;
-}
-.Trac_33 {
-    overflow: visible;
-    position: absolute;
-    width: 15.914px;
-    height: 27.691px;
-    left: 26.721px;
-    top: 0.664px;
-    transform: matrix(1,0,0,1,0,0);
-}
-#tete {
-    position: absolute;
-    width: 87.53px;
-    height: 88.883px;
-    left: 46.555px;
-    top: 42.59px;
-    overflow: visible;
-}
-#Trac_34 {
-    fill: rgba(0,0,0,1);
-}
-.Trac_34 {
-    overflow: visible;
-    position: absolute;
-    width: 87.53px;
-    height: 88.883px;
-    left: 0px;
-    top: 0px;
-    transform: matrix(1,0,0,1,0,0);
-}
-#ombre_tete {
-    position: absolute;
-    width: 26.332px;
-    height: 80.807px;
-    left: 90.239px;
-    top: 44.796px;
-    overflow: visible;
-}
-#Trac_35 {
-    fill: rgba(255,255,255,1);
-}
-.Trac_35 {
-    overflow: visible;
-    position: absolute;
-    width: 26.332px;
-    height: 80.807px;
-    left: 0px;
-    top: 0px;
-    transform: matrix(1,0,0,1,0,0);
-}
-#antennes {
-    position: absolute;
-    width: 171.252px;
-    height: 56.168px;
-    left: 0px;
-    top: 0.156px;
-    overflow: visible;
-}
-#Trac_36 {
-    fill: rgba(255,255,255,1);
-    stroke: rgba(0,0,0,1);
-    stroke-width: 1px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 10;
-    shape-rendering: auto;
-}
-.Trac_36 {
-    overflow: visible;
-    position: absolute;
-    width: 86.469px;
-    height: 36.92px;
-    left: 0px;
-    top: 20.301px;
-    transform: matrix(1,0,0,1,0,0);
-}
-#Trac_37 {
-    fill: rgba(0,0,0,1);
-    stroke: rgba(0,0,0,1);
-    stroke-width: 1px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 10;
-    shape-rendering: auto;
-}
-.Trac_37 {
-    overflow: visible;
-    position: absolute;
-    width: 76.676px;
-    height: 57.241px;
-    left: 95.641px;
-    top: 0px;
-    transform: matrix(1,0,0,1,0,0);
-}
-#yeux {
-    position: absolute;
-    width: 65.371px;
-    height: 34.749px;
-    left: 61.549px;
-    top: 59.265px;
-    overflow: visible;
-}
-#Groupe_1886 {
-    position: absolute;
-    width: 65.371px;
-    height: 34.749px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-}
-#Trac_38_cv {
-    fill: url(#Trac_38_cv);
-}
-.Trac_38_cv {
-    overflow: visible;
-    position: absolute;
-    width: 16.131px;
-    height: 34.53px;
-    left: 0px;
-    top: 0.219px;
-    transform: matrix(1,0,0,1,0,0);
-}
-#Trac_39_cx {
-    fill: url(#Trac_39_cx);
-}
-.Trac_39_cx {
-    overflow: visible;
-    position: absolute;
-    width: 16.233px;
-    height: 34.749px;
-    left: 49.139px;
-    top: 0px;
-    transform: matrix(1,0,0,1,0,0);
-}
 #Groupe_Menu {
     position: absolute;
     width: 434px;
@@ -381,16 +134,6 @@
     top: 112px;
     overflow: visible;
 }
-/*
-#Groupe_-_Agenda {
-    position: absolute;
-    width: 401px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-}
-*/
 #Agenda_-_Texte {
     left: 113px;
     top: 13px;
@@ -439,24 +182,6 @@
     left: 334.21px;
     top: 6px;
     transform: matrix(1,0,0,1,0,0);
-}
-
-#Ellipse_59 {
-    fill: rgba(255,0,0,1);
-    stroke: rgba(112,112,112,1);
-    stroke-width: 3px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-}
-.Ellipse_59 {
-    position: absolute;
-    overflow: visible;
-    width: 56px;
-    height: 50px;
-    left: 2px;
-    top: 0px;
 }
 #n_2_ {
     left: 0px;
@@ -766,9 +491,8 @@
     transform: matrix(1,0,0,1,0,0);
 }
 #ElementDuMenu-Texte {
-    position: relative;
     overflow: visible;
-    width: 193px;
+    width: 380px;
     white-space: nowrap;
     text-align: center;
     font-family: Krub;
@@ -777,4 +501,45 @@
     font-size: 45px;
     color: rgba(255,255,255,1);
     list-style: none;
+}
+#Affichage_permanent_ {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(0,0,0,1);
+    overflow: hidden;
+}
+
+:root {
+    --violet: #7713dd;
+    --violetc10:#b06df4;
+    --violetc20:#c997fc;
+    --violetf10:#3e017c;
+    --violetf20:#2f0060;
+    --orange:#ff680f;
+    --orangec10:#ff9c62;
+    --orangec20:#ffb080;
+    --orangef10:#953800;
+    --orangef20:#712a00;
+    --bleu:#290fc6;
+    --bleuc10:#4835c0;
+    --bleuc20:#6757ca;
+    --bleuf10:#200e8e;
+    --bleuf20:#17096f;
+    --noir:#000000;
+    --noirc10:#484848;
+    --noirc20:#7f7f7f;
+    --blanc:#ffffff;
+    --blancf10:#d0d0d0;
+    --blancf20:#a2a2a2;
+    }
+    
+    
+*{
+    font-family: 'krub', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
 }
