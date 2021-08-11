@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/ux-ui.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="../css/Affichage_permanent.css" media="all"/>
 		<link rel="stylesheet" type="text/css" href="../css/Marché.css" media="all"/>
+        <link rel="stylesheet" type="text/css" href="../css/Marché-Accueil.css" media="all"/>
 		<link rel="shortcut icon" type="../image/svg" href="../svg/Logo.svg"/>
 	</head>
 
@@ -62,17 +63,22 @@
         </div>
         <div id="Volet_droit" class="Volet_droit">
             <div id="Fenetre_travail" class="Fenetre_travail">
-                <div id="Texte" class="Texte">
-                    Service: apprendre à chanter juste
-            
+                <div id="TypeService" class="TypeService">
                     <fieldset> 
-                        <legend>Votre civilité : </legend> 
-                        <input type="radio" name="civilite" value="madame">Madame<br> 
-                        <input type="radio" name="civilite" 
-                     value="mademoiselle">Mademoiselle<br> 
-                        <input type="radio" name="civilite" value="monsieur">Monsieur 
+                        <input type="radio" name="TypeService" value="Offres">Offres<br> 
+                        <input type="radio" name="TypeService" value="Demandes">Demandes<br> 
                      </fieldset> 
+                     <img src="../svg/Icon Message.svg" width="5%" height="5%">
+                     <img src="../svg/Icon Annonces.svg" width="5%" height="5%">
             
+                     <select name="ChoixCategorie" id="ChoixCategorie">
+                        <option value="Services informatique">Services informatiques</option>
+                        <option value="Services graphisme">Services graphisme</option>
+                        <option value="Services autres">Services autres</option>
+                        <option value="Coaching">Coaching</option>
+                        <option value="Collaboration">Collaboration</option>
+                    </select>
+
                 </div>
             </div>
         </div>
